@@ -1,0 +1,12 @@
+The entire code is in the files main.cpp, stego.cpp and stego.h
+The CImg.h is the CImg library code.
+
+To compile use "make"
+To run use "./stego" and follow the options.
+For input images, you may use "cover.jpg" and "secret.jpg" present in the same folder.
+
+Current following options are supported:
+1. Encrypt image into another image
+2. Decrypt image
+3. Encrypt text into an image
+4. Decrypt text from an image
